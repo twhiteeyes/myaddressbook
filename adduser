@@ -1,0 +1,9 @@
+
+
+addUser () {
+
+read -p "Please enter the usere last name" LASTNAME
+
+echo "$LASTNAME" >> {$LASTNAME}.txt
+
+}
